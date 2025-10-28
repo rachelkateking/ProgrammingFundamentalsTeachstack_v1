@@ -2,7 +2,7 @@ def test_basic_while(capsys):
     """
     Tests the while loop prints 1 to 5
     """
-    from basic_while import main
+    from basic_while.exercise import main
     
     # Run the script
     main()
